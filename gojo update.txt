@@ -748,12 +748,12 @@ if player.Character then
     end    
 })
 
-local Section = Tab:AddSection({
+local Section = Tab1:AddSection({
 	Name = "Mahoraga"
 })
 
 
-Tab2:AddButton({
+Tab1:AddButton({
 	Name = "World Slash",
 	Callback = function()
 local Players = game:GetService("Players")
@@ -780,7 +780,7 @@ if player.Character then
 })
 
 
-Tab2:AddButton({
+Tab1:AddButton({
 	Name = "Take down",
 	Callback = function()
 local Players = game:GetService("Players")
@@ -807,7 +807,7 @@ if player.Character then
 })
 
 
-Tab2:AddButton({
+Tab1:AddButton({
 	Name = "adoption",
 	Callback = function()
 local Players = game:GetService("Players")
@@ -834,7 +834,7 @@ if player.Character then
 })
 
 
-Tab2:AddButton({
+Tab1:AddButton({
 	Name = "Earth Quake",
 	Callback = function()
 local Players = game:GetService("Players")
@@ -861,7 +861,7 @@ if player.Character then
 })
 
 
-Tab2:AddButton({
+Tab1:AddButton({
 	Name = "Divine Pummel",
 	Callback = function()
 local Players = game:GetService("Players")
@@ -888,7 +888,7 @@ if player.Character then
 })
 
 
-Tab2:AddButton({
+Tab1:AddButton({
 	Name = "parry",
 	Callback = function()
 local Players = game:GetService("Players")
