@@ -5,7 +5,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/PolarCheem/duck/main/
 OrionLib:MakeNotification({
 	Name = "Dummy says",
 	Content = "Made by @RedVeux | LocalGoodduck | @.ono101",
-	Image = "rbxassetid://4483345998",
+	Image = "rbxassetid://18140853634",
 	Time = 10
 })
 
